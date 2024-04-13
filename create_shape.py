@@ -1,12 +1,13 @@
 import turtle
 arrow= turtle.Turtle()
-arrow.speed(10) #fast
-arrow.color("blue") #extendable colours
-size= 20 #interchangable
+arrow.speed(2) #slow
+arrow.color("green") #extendable colours
+size= 60 #interchangable
 
-for i in range(36): #for loop runs 4 times 
+for i in range(12): #for loop runs X times 
     
     arrow.forward(size)
-    arrow.right(10)
+    arrow.right(30)
+
 
 turtle.done()
