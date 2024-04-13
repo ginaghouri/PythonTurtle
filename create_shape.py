@@ -1,6 +1,6 @@
 import turtle
 arrow= turtle.Turtle()
-arrow.speed(10) #slow
+arrow.speed(10) #fast
 arrow.color("blue") #extendable colours
 size= 20 #interchangable
 
